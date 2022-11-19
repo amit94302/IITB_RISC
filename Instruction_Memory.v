@@ -1,6 +1,4 @@
-module Instruction_Memory (Address, 
-
-									Instruction);
+module Instruction_Memory (Address, Instruction);
 
 //-------------------------------------------------- I/O Ports
 
@@ -44,7 +42,7 @@ begin
 			endcase
 		end
 	else
-			Instruction <= 16'b1111000000000000; // NOPE Instruction
+		Instruction <= 16'b1111000000000000; // NOPE Instruction
 			
 end
 
